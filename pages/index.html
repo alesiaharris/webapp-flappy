@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Cambridge Coding Academy Flappy Bird</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <p id="gameLink">
+                <a href="example.html">Here will be the game</a>
+            </p>
+        </div>
+
+        <div class="col-md-6">
+            <p>The highest scorers are:</p>
+            <ul>
+                <li class="gold">Me</li>
+                <li class="score">Myself</li>
+                <li class="score">I</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="game"> </div>
+
+    <div id="greeting">
+        <form id="greeting-form" method="post" class="form-inline">
+            <div class="form-group">
+                <label for="fullName">What's your name?</label>
+                <input type="text" id="fullName"
+                       name="fullName" class="form-control" placeholder="Bob">
+                <label for="email">What's your email?</label>
+                <input type="email" id="email" class="form-control"
+                       name="email" placeholder="bob@email.com">
+                <input type="hidden" id="score" name="score" value="0">
+            </div>
+            <button class="btn btn-default" type="submit">OK</button>
+        </form>
+    </div>
+</div>
+player.body.velocity.x = 100;
+player.body.gravity.y = 100;
+
+<div id="footer">
+    <p>&copy; Cambridge Coding Academy</p>
+</div>
+    <script src="../lib/jquery.js"></script>
+    <script type="text/javascript" src="../lib/phaser.min.js"></script>
+    <script type="text/javascript" src="../js/flappy.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+h1 {
+    color: fuchsia;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+
+}
+
+#gameLink {
+    text-align: center;
+    border: 1px fuchsia;
+}
